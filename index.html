@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transforme Sua Vida - Curso Exclusivo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="landing-page">
+        <!-- Seção de Conteúdo -->
+        <div class="content-section">
+          <div class="badge">Oferta Limitada</div>
+          <h1>Transforme Sua Vida em 30 Dias</h1>
+          <p class="subtitle">
+            Descubra o método comprovado que já ajudou mais de 10.000 pessoas a
+            alcançarem seus objetivos e transformarem suas vidas completamente.
+          </p>
+
+          <ul class="benefits">
+            <li>Método testado e aprovado por especialistas</li>
+            <li>Resultados garantidos em 30 dias</li>
+            <li>Suporte exclusivo da nossa comunidade</li>
+            <li>Material complementar gratuito</li>
+            <li>Acesso vitalício ao conteúdo</li>
+          </ul>
+
+          <div class="social-proof">
+            <p class="social-proof-text">
+              ⭐⭐⭐⭐⭐ Mais de 2.500 avaliações positivas
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-text">
+              "Em apenas 3 semanas já consegui ver resultados incríveis.
+              Recomendo para todos!"
+            </p>
+            <p class="testimonial-author">- Maria Silva, São Paulo</p>
+          </div>
+        </div>
+
+        <!-- Seção do Formulário -->
+        <div class="form-section">
+          <div class="form-container">
+            <h2>Garante Sua Vaga!</h2>
+            <p class="form-subtitle">
+              Preencha os dados abaixo e receba acesso imediato
+            </p>
+
+            <form id="captureForm">
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Digite seu nome completo"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Digite seu melhor e-mail"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">WhatsApp (opcional)</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="(11) 99999-9999"
+                />
+              </div>
+
+              <button type="submit" class="submit-btn" id="submitBtn">
+                Quero Transformar Minha Vida
+              </button>
+
+              <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Processando...</p>
+              </div>
+
+              <div class="success-message" id="successMessage">
+                ✅ Cadastro realizado com sucesso! Verifique seu e-mail.
+              </div>
+
+              <div class="error-message" id="errorMessage">
+                ❌ Erro ao processar. Tente novamente.
+              </div>
+
+              <p class="privacy-text">
+                🔒 Seus dados estão seguros. Não enviamos spam.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
